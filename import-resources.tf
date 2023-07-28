@@ -31,10 +31,10 @@ on generated-run-jz5fDM9e4Nwh5Qp6.tf line 15:
 // After Terraform code has been generated for resource remove import statement.
 // After running and importing code via TFC, plan is clean with no changes. 
 // https://app.terraform.io/app/rodasnet/workspaces/Workspace-Import-Resources/runs/run-gUrkdbMbWAF22D1f
-import {
-  to = aws_instance.HelloWorld-2
-  id = "i-09873e4b0fcb4fc22"
-}
+# import {
+#   to = aws_instance.HelloWorld-2
+#   id = "i-09873e4b0fcb4fc22"
+# }
 
 import {
   to = aws_vpc.development
