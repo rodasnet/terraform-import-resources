@@ -28,8 +28,8 @@ on generated-run-jz5fDM9e4Nwh5Qp6.tf line 15:
 "ipv6_addresses": conflicts with ipv6_address_count
 
 */
-
-import {
-  to = aws_instance.HelloWorld-2
-  id = "i-09873e4b0fcb4fc22"
-}
+// After Terraform code has been generated for resource remove import statement.
+# import {
+#   to = aws_instance.HelloWorld-2
+#   id = "i-09873e4b0fcb4fc22"
+# }
