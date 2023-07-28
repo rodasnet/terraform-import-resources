@@ -40,3 +40,8 @@ import {
   to = aws_vpc.development
   id = "vpc-0eb820fc1bf525783"
 }
+
+import {
+  to = aws_s3_bucket.sample-s3-bucket-01
+  id = "sample-s3-bucket-01"
+}
