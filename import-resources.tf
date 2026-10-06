@@ -41,7 +41,10 @@ import {
   id = "vpc-0eb820fc1bf525783"
 }
 
-import {
-  to = aws_s3_bucket.sample-s3-bucket-01
-  id = "sample-s3-bucket-01"
-}
+# sample-s3-bucket-01 no longer exists in AWS - this import block was
+# failing every plan/destroy with "Cannot import non-existent remote
+# object" (same failure mode as the EC2 import above, same fix).
+# import {
+#   to = aws_s3_bucket.sample-s3-bucket-01
+#   id = "sample-s3-bucket-01"
+# }
